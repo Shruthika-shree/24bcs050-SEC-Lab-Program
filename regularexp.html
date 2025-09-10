@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //quantifiers specify how many times a character or group should appear
+    let text="addbs";
+    let pattern=/\a?/g;
+    let result=text.match(pattern);
+    console.log(result);
+    //modifiers
+    let txt="Hai Hello how are you?\nHai I'm Fyn.Hai";
+    let pattern2=/^Hai/igm;
+    let result2=txt.match(pattern2);
+    console.log(result2)
+    //Metacharacters
+    let num="079525asabeike";
+    let pattern3=/\d+/g;
+    let result3=num.match(pattern2);
+    //methods;
+    //test()  exec()  match()  replace()  split()
+    </script>
+</body>
+</html>
